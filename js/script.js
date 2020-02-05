@@ -20,4 +20,9 @@ $(document).ready(function(){
  $(".theButton").mouseenter(function(){
      $(this).addClass("makeBlack");
  });
+
+ $(".theButton").mouseleave(function(){
+     $(this).removeClass("makeBlack");
+ })
+ 
 });
